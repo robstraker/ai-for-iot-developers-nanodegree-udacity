@@ -162,40 +162,40 @@ This project is licensed under the MIT License. See [LICENSE][33] for details.
 - 2020-05-28: Completed 3-course Nanodegree program.
 
 [//]: # (Links Section)
-[1]:https://github.com/robstraker/ai-for-iot-developers-udacity/BIO.md
+[1]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/BIO.md
 [2]:https://www.udacity.com
 
-[3]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-1-exercises/loading-pre-trained-models
-[4]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-1-exercises/pre-processing-inputs
-[5]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-1-exercises/deploy-an-app-at-the-edge
-[6]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/convert-a-tf-model
-[7]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/convert-a-caffe-model
-[8]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/convert-an-onnx-model
-[9]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/custom-layers
-[10]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-3-exercises/feed-an-ir-to-the-inference-engine
-[11]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-3-exercises/inference-requests
-[12]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-3-exercises/integrate-into-an-app
-[13]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-4-exercises/handling-input-streams
-[14]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-4-exercises/process-model-outputs
-[15]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-4-exercises/server-communications
-[16]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-1-edge-ai-fundamentals-with-openvino/project-deploy-a-people-counter-app-at-the-edge
+[3]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-1-exercises/loading-pre-trained-models
+[4]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-1-exercises/pre-processing-inputs
+[5]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-1-exercises/deploy-an-app-at-the-edge
+[6]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/convert-a-tf-model
+[7]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/convert-a-caffe-model
+[8]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/convert-an-onnx-model
+[9]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-2-exercises/custom-layers
+[10]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-3-exercises/feed-an-ir-to-the-inference-engine
+[11]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-3-exercises/inference-requests
+[12]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-3-exercises/integrate-into-an-app
+[13]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-4-exercises/handling-input-streams
+[14]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-4-exercises/process-model-outputs
+[15]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/lesson-4-exercises/server-communications
+[16]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-1-edge-ai-fundamentals-with-openvino/project-deploy-a-people-counter-app-at-the-edge
 
-[17]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-1-exercises/using-intel-devcloud
-[18]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-2-exercises/cpu-and-the-devcloud
-[19]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-2-exercises/igpu-and-the-devcloud
-[20]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-3-exercises/vpu-and-the-devcloud
-[21]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-3-exercises/walkthrough-multi-device-plugin-and-the-devcloud
-[22]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-3-exercises/multi-device-plugin-on-devcloud
-[23]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-4-exercises/walkthrough-fpga-and-the-devcloud
-[24]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-4-exercises/fpga-and-the-devcloud
-[25]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-4-exercises/heterogeneous-plugin-on-devcloud
-[26]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/project-design-a-smart-queuing-system
+[17]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-1-exercises/using-intel-devcloud
+[18]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-2-exercises/cpu-and-the-devcloud
+[19]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-2-exercises/igpu-and-the-devcloud
+[20]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-3-exercises/vpu-and-the-devcloud
+[21]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-3-exercises/walkthrough-multi-device-plugin-and-the-devcloud
+[22]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-3-exercises/multi-device-plugin-on-devcloud
+[23]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-4-exercises/walkthrough-fpga-and-the-devcloud
+[24]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-4-exercises/fpga-and-the-devcloud
+[25]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/lesson-4-exercises/heterogeneous-plugin-on-devcloud
+[26]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-2-hardware-for-computer-vision-deep-learning-application-deployment/project-design-a-smart-queuing-system
 
-[27]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-2-exercises/pooling-performance
-[28]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-2-exercises/separable-convolutions-performance
-[29]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-2-exercises/measuring-layerwise-performance
-[30]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-4-exercises/packaging-your-application
-[31]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-4-exercises/deploying-runtime-package
-[32]:https://github.com/robstraker/ai-for-iot-developers-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/project-computer-pointer-controller
+[27]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-2-exercises/pooling-performance
+[28]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-2-exercises/separable-convolutions-performance
+[29]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-2-exercises/measuring-layerwise-performance
+[30]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-4-exercises/packaging-your-application
+[31]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/lesson-4-exercises/deploying-runtime-package
+[32]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/project-computer-pointer-controller
 
-[33]:https://github.com/robstraker/ai-for-iot-developers-udacity/LICENSE
+[33]:https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/LICENSE
