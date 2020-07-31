@@ -1,12 +1,12 @@
 # Intel® Edge AI for IoT Developers Nanodegree
 **In collaboration with Intel®**
 
-Instructors: Stewart Christie, Micheal Virgo, Soham Chatterjee, Vaidheeswaran Archana. For biographical information, see [BIO.md][1]
+Instructors: Stewart Christie, Michael Virgo, Soham Chatterjee, Vaidheeswaran Archana. For biographical information, see [BIO.md][1]
 
 Offered By: [udacity.com][2]
 
 ## Introduction
-This repo contains projects and exercises for the four-part Intel® Edge AI for IoT Developers Nanodegree program offered through Udacity. Feel free to use the material for reference purposes, or if you get stuck. However, I would encourage you to try to complete all projects and exercises yourself, so that you can maximize your learning and enjoyment of the program.
+This repo contains projects and exercises for the three-course Intel® Edge AI for IoT Developers Nanodegree program offered through Udacity. Feel free to use the material for reference purposes or if you get stuck. However, I would encourage you to try to complete all projects and exercises yourself, so that you can maximize your learning and enjoyment of the program.
 
 ## Udacity Description
 #### About this Nanodegree
@@ -18,20 +18,21 @@ Leverage the Intel® Distribution of OpenVINO™ Toolkit to fast-track developme
 Edge AI applications are revolutionizing the IoT industry by bringing fast, intelligent behavior to the locations where it is needed. In this Nanodegree program, you will learn how to develop and optimize Edge AI systems, using the Intel® Distribution of OpenVINO™ Toolkit. A graduate of this program will be able to:
 - Leverage the Intel® Distribution of OpenVINO™ Toolkit to fast-track development of high-performance computer vision and deep learning inference applications.
 - Run pre-trained deep learning models for computer vision on-prem.
-- Identify key hardware specifications of various hardware types (CPU, VPU, FPGA, and Integrated GPU). • Utilize Intel® DevCloud for the Edge to test model performance on various hardware types (CPU, VPU,
+- Identify key hardware specifications of various hardware types (CPU, VPU, FPGA, and Integrated GPU). 
+- Utilize Intel® DevCloud for the Edge to test model performance on various hardware types (CPU, VPU,
 FPGA, and Integrated GPU).
 
 This program consists of 3 courses and 3 projects. In each project you build will be an opportunity to demonstrate what you’ve learned in the course, and will demonstrate to potential employers that you have skills in these areas.
 
 ## Topics Covered
 **Course 1: Edge AI Fundamentals with OpenVINO™:**  
-Intel® Distribution of OpenVINOTM Toolkit, Pre-Trained Models, The Model Optimizer, The Inference Engine, MQTT
+Intel® Distribution of OpenVINO™ Toolkit, Pre-Trained Models, The Model Optimizer, The Inference Engine, and MQTT.
 
 **Course 2: Hardware for Computer Vision Deep Learning Application Deployment:**  
-CPUs, Integrated GPUs, Vision Processing Units (VPUs), Field Programmable Arrays (FPGAs), Intel® DevCloud for the Edge
+CPUs, Integrated GPUs, Vision Processing Units (VPUs), Field Programmable Arrays (FPGAs), and Intel® DevCloud for the Edge.
 
 **Course 3: Optimization Techniques and Tools for Computer Vision Deep Learning Applications:**  
-Software Optimization, Intel® Deep Learning Workbench, VTune Amplifier
+Software Optimization, Intel® Deep Learning Workbench, and VTune Amplifier.
 
 ## Syllabus
 
@@ -87,17 +88,17 @@ Grow your expertise in choosing the right hardware. Identify key hardware specif
 **Lesson 2: CPU and Integrated GPU.**
 - Outcomes: 
   - Identify the key specifications of Intel® CPUs and Integrated GPUs. 
-  - Use the Intel® Devcloud for the Edge for running deep learning models on the CPU and Integrated GPU
+  - Use the Intel® DevCloud for the Edge for running deep learning models on the CPU and Integrated GPU.
 - Exercises:
   - [CPU and the DevCloud][18]
   - [IGPU and the DevCloud][19]
 
 **Lesson 3: Vision Processing Units.**
 - Outcomes:
-  - Identify the key specifications of Intel® VPUs
-  - Use the Intel® DevCloud for the Edge for running deep learning
+  - Identify the key specifications of Intel® VPUs.
+  - Use the Intel® DevCloud for the Edge for running deep learning.
 models on the VPU
-  - Use the MULTI Plugin to get more consistent performance
+  - Use the MULTI Plugin to get more consistent performance.
 - Exercises:
   - [VPU and the DevCloud][20]
   - [Walkthrough: Multi-Device Plugin and the DevCloud][21]
@@ -105,10 +106,10 @@ models on the VPU
 
 **Lesson 4: Field Programmable Gate Arrays.**
 - Outcomes: 
-  - Identify the key specifications of Intel® FPGAs
-  - Use the Intel® DevCloud for the Edge for running deep learning
+  - Identify the key specifications of Intel® FPGAs.
+  - Use the Intel® DevCloud for the Edge for running deep learning.
 models on the FPGA
-  - Use the HETERO Plugin to enable efficient hardware utilization
+  - Use the HETERO Plugin to enable efficient hardware utilization.
 - Exercises:
   - [Walkthrough: FPGA and the DevCloud][23]
   - [FPGA and the DevCloud][24]
@@ -122,18 +123,16 @@ Learn how to optimize your model and application code to reduce inference time w
 
 **Lesson 1: Introduction to Software Optimization.**
 - Outcomes:
-Describe why Software Optimization is important
-  - Identify the different fundamental optimization techniques 
-  - Use different metrics to measure your model performance 
-  - Identify when and how to use optimization techniques
+  - Describe why Software Optimization is important.
+  - Identify the different fundamental optimization techniques.
+  - Use different metrics to measure your model performance. 
+  - Identify when and how to use optimization techniques.
 
 **Lesson 2: Reducing Model Operations.**
 - Outcomes:
-  - Calculate the number of operations in a model
-  - Implement optimization techniques that improve
-performance by reducing the number of model operations
-  - Use the Intel® Distribution of OpenVINOTM Toolkit to measure
-the effects of different optimization techniques on the performance of your model
+  - Calculate the number of operations in a model.
+  - Implement optimization techniques that improve performance by reducing the number of model operations.
+  - Use the Intel® Distribution of OpenVINOTM Toolkit to measure the effects of different optimization techniques on the performance of your model.
 - Exercises:
   - [Pooling Performance][27]
   - [Separable Convolutions Performance][28]
@@ -141,13 +140,13 @@ the effects of different optimization techniques on the performance of your mode
 
 **Lesson 3: Reducing Model Size.**
 - Outcomes:
-  - Implement optimization techniques that improve performance by reducing the number of model operations
-  - Use DL Workbench to quantize and measure the performance of your model
+  - Implement optimization techniques that improve performance by reducing the number of model operations.
+  - Use DL Workbench to quantize and measure the performance of your model.
 
 **Lesson 4: Other Software Optimization Techniques.**
 - Outcomes: 
-  - Use VTune Amplifier to measure hotspots in your application code
-  - Package your application code and data
+  - Use VTune Amplifier to measure hotspots in your application code.
+  - Package your application code and data.
 - Exercises:
   - [Packaging Your Application][30]
   - [Deploying Runtime Package][31]

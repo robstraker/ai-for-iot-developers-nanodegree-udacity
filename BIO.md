@@ -1,7 +1,7 @@
 # Intel® Edge AI for IoT Developers Nanodegree Instructor Biographies
 
 ## Stewart Christie
-#### Community Mangaer, IoT Developer Program at Intel®
+#### Community Manager, IoT Developer Program at Intel®
 
 Stewart is a Technical Evangelist for Intel®, responsible for running workshops, creating content, and supporting the developer community in IoT. He is skilled in developing applications that interface hardware with software for computer vision, robotics, and language processing.
 
