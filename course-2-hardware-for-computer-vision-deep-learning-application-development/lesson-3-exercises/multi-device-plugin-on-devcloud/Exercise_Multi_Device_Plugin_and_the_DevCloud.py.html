@@ -1,0 +1,206 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # Exercise_Multi_Device_Plugin_and_the_DevCloud
+# 
+# In this exercise, you will need to perform the following tasks
+# 1. Load the model on three types of devices
+#     - CPU and VPU
+#     - GPU and VPU
+#     - CPU, GPU and VPU
+# 2. Note the time for inference for all three types of devices for 1000 iterations
+# 3. Plot the compare using graphs for the following
+#   - Model Loading Time
+#   - Inference Time
+#   - Frames Per Second
+
+# <span class="graffiti-highlight graffiti-id_p44n0ti-id_yda56u5"><i></i><button>Introduction</button></span>
+
+# 
+# 
+# #### Set up paths so we can run Dev Cloud utilities
+# You *must* run this every time they enter a Workspace session.
+
+# In[ ]:
+
+
+get_ipython().run_line_magic('env', 'PATH=/opt/conda/bin:/opt/spark-2.4.3-bin-hadoop2.7/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/intel_devcloud_support')
+import os
+import sys
+sys.path.insert(0, os.path.abspath('/opt/intel_devcloud_support'))
+sys.path.insert(0, os.path.abspath('/opt/intel'))
+
+
+# ## The model
+# 
+# We will be using the `vehicle-license-plate-detection-barrier-0106` model for this exercise. Remember that to run a model on the GPU, we need to use FP16 as the model precision.
+# 
+# The model is present in the `/data/models/intel` folder.
+
+# # Step 1: Creating a Python Script
+# 
+# The first step is to create a python script that you can use to load the model and perform an inference. I have used the `writefile` magic to create a python file called `load_model_to_cpu.py`. You will need to complete this file.
+
+# In[ ]:
+
+
+get_ipython().run_cell_magic('writefile', 'inference_on_device.py', '\nimport time\nimport numpy as np\nimport cv2\nfrom openvino.inference_engine import IENetwork\nfrom openvino.inference_engine import IEPlugin\nimport argparse\n\ndef main(args):\n    model=args.model_path\n    model_weights=model+\'.bin\'\n    model_structure=model+\'.xml\'\n    \n    start=time.time()\n    \n    # TODO: Load the model\n    \n    print(f"Time taken to load model = {time.time()-start} seconds")\n    \n    # Reading and Preprocessing Image\n    input_img=cv2.imread(\'car.png\')\n    input_img=cv2.resize(input_img, (300,300), interpolation = cv2.INTER_AREA)\n    input_img=np.moveaxis(input_img, -1, 0)\n\n    # TODO: Prepare the model for inference (create input dict etc.)\n    \n    start=time.time()\n    for _ in range(10):\n        # TODO: Run Inference in a Loop\n    \n    print(f"Time Taken to run 100 inference is = {time.time()-start} seconds")\n\nif __name__==\'__main__\':\n    parser=argparse.ArgumentParser()\n    parser.add_argument(\'--model_path\', required=True)\n    parser.add_argument(\'--device\', default=None)\n    \n    args=parser.parse_args() \n    main(args)')
+
+
+# <span class="graffiti-highlight graffiti-id_56oyir6-id_e6u6ngz"><i></i><button>Click here to Show the Solution of creation of a python script</button></span>
+
+# ## Step 2: Creating a job submission script
+# 
+# To submit a job to the devcloud, we need to create a script. I have named the script as `inference_gpu_model_job.sh`.
+# 
+# Can you write a script that will take the model path and device as a command line argument and then call the python file you created in the previous cell with the path to the model?
+
+# In[ ]:
+
+
+get_ipython().run_cell_magic('writefile', 'inference_gpu_model_job.sh', '\n#TODO: Create job submission script')
+
+
+# <span class="graffiti-highlight graffiti-id_7znu1gt-id_97beuhh"><i></i><button>Click here to Show the Solution to create a job submission script</button></span>
+
+# ## Step 3a: Running on the CPU and NCS2
+# 
+# In the cell below, can you write the qsub command that will submit your job to the CPU and NCS2?
+
+# In[ ]:
+
+
+job_id_core = # TODO: Write qsub command
+print(job_id_core[0])
+
+
+# <span class="graffiti-highlight graffiti-id_b84ire6-id_z26mkwx"><i></i><button>Click here to Show the Solution to submit a job to CPU and the NCS2</button></span>
+
+# ## Step 3b: Running on the GPU and NCS2
+# 
+# 
+# In the cell below, can you write the qsub command that will submit your job to the CPU?
+
+# In[ ]:
+
+
+job_id_core = # TODO: Write qsub command
+print(job_id_core[0])
+
+
+# <span class="graffiti-highlight graffiti-id_irlyopd-id_9nxj8l2"><i></i><button>Click here to Show the Solution to submit a job to GPU and the NCS2</button></span>
+
+# ## Step 3c: Running on the CPU, GPU and NCS2
+# 
+# In the cell below, can you write the qsub command that will submit your job to the CPU, GPU and NCS2?
+
+# In[ ]:
+
+
+job_id_core = # TODO: Write qsub command
+print(job_id_core[0])
+
+
+# <span class="graffiti-highlight graffiti-id_npwrqhk-id_29kz9m6"><i></i><button>Click here to Show the Solution to submit a job to CPU, GPU and the NCS2</button></span>
+
+# ## Step 4: Getting the Live Stat Values
+# 
+# By running the below command, we can see the live status of the commands.
+
+# <span class="graffiti-highlight graffiti-id_qq13jka-id_wdv5nio"><i></i><button>Click here to check the submitted job status</button></span>
+
+# In[ ]:
+
+
+import liveQStat
+liveQStat.liveQStat()
+
+
+# ## Step 5: Get the results
+# 
+# Running the cell below will get the output files from our job
+
+# <span class="graffiti-highlight graffiti-id_0h8h3y7-id_g09u1s8"><i></i><button>Click here to know how fetch the results</button></span>
+
+# In[165]:
+
+
+import get_results
+
+get_results.getResults(cpu_gpu_vpu_job_id_core[0], filename="output.tgz", blocking=True)
+
+
+# In[166]:
+
+
+get_ipython().system('tar zxf output.tgz')
+
+
+# In[167]:
+
+
+get_ipython().system('cat stdout.log')
+
+
+# In[168]:
+
+
+import get_results
+
+get_results.getResults(cpu_gpu_vpu_job_id_core[0], filename="output.tgz", blocking=True)
+
+
+# In[169]:
+
+
+get_ipython().system('tar zxf output.tgz')
+
+
+# In[170]:
+
+
+get_ipython().system('cat stdout.log')
+
+
+# In[ ]:
+
+
+import get_results
+
+get_results.getResults(cpu_gpu_vpu_job_id_core[0], filename="output.tgz", blocking=True)
+
+
+# In[172]:
+
+
+get_ipython().system('tar zxf output.tgz')
+
+
+# In[173]:
+
+
+get_ipython().system('cat stdout.log')
+
+
+# ## Step 6: View the Outputs
+# 
+# Can you plot the load time, inference time and the frames per second in the cell below?
+
+# In[ ]:
+
+
+import matplotlib.pyplot as plt
+
+#File Paths to stats files
+paths=['gpu_stats.txt', 'cpu_stats.txt']
+
+# TODO: Plot the different stats
+
+
+# <span class="graffiti-highlight graffiti-id_7ibomgq-id_r5doaij"><i></i><button>Click here to know how to plot and compare the results</button></span>
+
+# In[ ]:
+
+
+
+
