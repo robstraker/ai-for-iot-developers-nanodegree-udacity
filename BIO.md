@@ -1,4 +1,4 @@
-#Intel® Edge AI for IoT Developers Nanodegree Instructor Biographies
+# Intel® Edge AI for IoT Developers Nanodegree Instructor Biographies
 
 ## Stewart Christie
 #### Community Mangaer, IoT Developer Program at Intel®
