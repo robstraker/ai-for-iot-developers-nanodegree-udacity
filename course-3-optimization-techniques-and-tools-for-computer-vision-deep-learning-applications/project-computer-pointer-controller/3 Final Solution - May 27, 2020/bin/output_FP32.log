@@ -1,8 +1,0 @@
-[ INFO ] All layers are supported.
-[ INFO ] All layers are supported.
-[ INFO ] All layers are supported.
-[ INFO ] All layers are supported.
-[ INFO ] Face Detection Model: loading 0.0919s, processing 0.377s, inference 0.347s
-[ INFO ] Facial Landmarks Detection Model: loading 0.0231s, processing 0.03s, inference 0.0242s
-[ INFO ] Head Pose Estimation Model: loading 0.0327s, processing 0.06s, inference 0.0575s
-[ INFO ] Gaze Estimation Model: loading 0.0434s, processing 0.0798s, inference 0.0681s
