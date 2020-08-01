@@ -130,8 +130,7 @@ Following are the benchmark results of running the model using multiple OpenVINO
 
 ![img](./bin/model_inference_time.png)
 
-## Result Discussion
-*TODO:* Discuss the benchmark results and explain why you are getting the results you are getting. For instance, explain why there is difference in inference time for FP32, FP16 and INT8 models.
+## Results Discussion
 
 ### Edge Cases
 There may be certain situations that break the inference flow. These might include lighting changes or multiple people in the frame. 
