@@ -16,7 +16,7 @@ To get these inputs, three other OpenVINO models must be used:
 
 The flow of data needs to be coordinated from the input, and then amongst the different models and finally to the mouse controller. The flow of data looks like this:
 
-![img](https://github.com/robstraker/ai-for-iot-developers-nanodegree-udacity/tree/master/course-3-optimization-techniques-and-tools-for-computer-vision-deep-learning-applications/project-computer-pointer-controller/bin/pipeline.png)
+![img](./bin/pipeline.png)
 
 While building the flow, it's important to be aware of the input and output shapes of each model. If the shapes or date format are different for a particular model, you can account for this in the preprocessing methods.
 
